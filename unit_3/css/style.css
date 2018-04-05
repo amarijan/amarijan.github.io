@@ -1,0 +1,25 @@
+style.css
+body {
+	background: url(https://s-ec.bstatic.com/images/hotel/max1024x768/741/74114815.jpg);
+}
+h1 {
+	color: #0000FF; 
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+h3 {
+	color: #0000FF;
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;	
+	text-decoration: none;
+}
+p ul ol {
+	color: #0000FF;
+	font-family: Arial, sans-serif
+	font-size: 15px;
+	font-weight: 400;
+}
