@@ -31,3 +31,8 @@ ul {
 	height: 90vh;
 	padding: 4em;
 }
+#intro {
+	text-align: center;
+	font-size: 45px;
+	color: white;
+}
