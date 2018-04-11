@@ -19,9 +19,11 @@ h1 {
 h3 {
 	font-size: 1.25em;
 	font-weight: bold;	
+
 }
 ul {
 	padding-left:1.25em;
+	font-size: 18px;
 }
 
 #intro {
@@ -33,12 +35,19 @@ ul {
 }
 #intro {
 	text-align: center;
-	font-size: 45px;
+	font-size: 40px;
 	color: white;
 }
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
-</style>
 #about {
 	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20px;
+	font-weight: normal;
 	text-align: center;
+}
+#properties {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	text-align: left;
 }
