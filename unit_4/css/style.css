@@ -36,6 +36,9 @@ ul {
 	font-size: 45px;
 	color: white;
 }
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+</style>
 #about {
+	font-family: 'PT Sans Narrow', sans-serif;
 	text-align: center;
 }
