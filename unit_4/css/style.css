@@ -4,6 +4,8 @@ body {
 	font-family: 'Arial', sans-serif
 	font-size: 28px;
 	font-weight: 400;
+	padding: 2em 3em 0 3em;
+	margin: 2em;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:500i');
@@ -44,6 +46,8 @@ ul {
 	font-size: 20px;
 	font-weight: normal;
 	text-align: center;
+	padding: 1em;
+	border-color: #333;
 
 }
 #properties {
@@ -54,7 +58,7 @@ ul {
 
 }
 #properties_2 {
-	background-color:
+	background: url();	
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1em;
 	font-weight: normal;
@@ -79,5 +83,6 @@ ul {
 	font-family: 'Arial', sans-serif;
 	font-size: 2em;
 	font-weight: 'bold';
+
 
 }
