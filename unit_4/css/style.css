@@ -50,13 +50,15 @@ ul {
 	border-color: #333;
 
 }
+
 #properties {
-	background: url(../images/Sapt_1.jpg);
+	background: url(../images/Sapt_1.png);
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1em;
 	font-weight: normal;
 
 }
+
 #properties_2 {
 	background: url();	
 	font-family: 'PT Sans Narrow', sans-serif;
@@ -64,15 +66,18 @@ ul {
 	font-weight: normal;
 
 }
+
 #properties_3 {
-	background-color:
+	background: url(../image/Japt_1.jpg);
+	background-repeat: no-repeat;
+	background-size: left;
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1em;
 	font-weight: normal;
 	
 }
 #properties_4 {
-	background-color:
+	background: url(../images/Japt_1);
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1em;
 	font-weight: normal;
@@ -81,8 +86,17 @@ ul {
 #nav {
 	text-align: center;
 	font-family: 'Arial', sans-serif;
-	font-size: 2em;
-	font-weight: 'bold';
+	font-size: 1em;
+	font-weight: 'normal';
+	padding: 0 3em 0 3em;
+	background-color: #333;
+}
 
-
+#two {
+	text-align: center;
+	font-family: 'Arial', sans-serif;
+	font-size: 1em;
+	font-weight: 'normal';
+	background-color: #00ff00;
+	padding: 0 3em 0em 3em;
 }
