@@ -47,37 +47,9 @@ ul {
 
 }
 #properties {
-	background:
-	font-family: 'PT Sans Narrow', sans-serif;
+	background: url(../images/Apt_1.jpg);
+	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
 	font-weight: normal;
-
-}
-#properties_2 {
-	background-color:
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 1em;
-	font-weight: normal;
-
-}
-#properties_3 {
-	background-color:
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 1em;
-	font-weight: normal;
-	
-}
-#properties_4 {
-	background-color:
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 1em;
-	font-weight: normal;
-
-}
-#nav {
-	text-align: center;
-	font-family: 'Arial', sans-serif;
-	font-size: 2em;
-	font-weight: 'bold';
-
+	text-align: left;
 }
