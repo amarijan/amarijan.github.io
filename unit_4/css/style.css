@@ -4,7 +4,7 @@ body {
 	font-family: 'Arial', sans-serif
 	font-size: 28px;
 	font-weight: 400;
-	padding: 2em 3em 0 3em;
+	padding: 0 3em 0 3em;
 	margin: 2em;
 }
 
@@ -52,37 +52,41 @@ ul {
 }
 
 #properties {
-	background: url(../images/Sapt_1.png);
+	text-align: right;
+	background: url(../images/PS_1.jpg);
+	background-repeat:no-repeat;
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1em;
 	font-weight: normal;
-
 }
 
 #properties_2 {
-	background: url();	
+	text-align: left;
+	background: url(../images/PS_1.jpg);
+	background-repeat:no-repeat;
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1em;
 	font-weight: normal;
-
 }
 
 #properties_3 {
-	background: url(../image/Japt_1.jpg);
+	text-align: right;
+	background: url(../images/PJ_1.jpg);
 	background-repeat: no-repeat;
-	background-size: left;
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1em;
-	font-weight: normal;
-	
+	font-weight: normal;	
 }
-#properties_4 {
-	background: url(../images/Japt_1);
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 1em;
-	font-weight: normal;
 
+#properties_4 {
+	background: url(../images/PJ_1.jpg);
+	background-repeat:no-repeat;
+	text-align: right;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1em;
+	font-weight: normal;
 }
+
 #nav {
 	text-align: center;
 	font-family: 'Arial', sans-serif;
@@ -97,6 +101,6 @@ ul {
 	font-family: 'Arial', sans-serif;
 	font-size: 1em;
 	font-weight: 'normal';
-	background-color: #00ff00;
+	background-color: #ff0000;
 	padding: 0 3em 0em 3em;
 }
