@@ -1,120 +1,59 @@
-* { margin:0; padding:0; box-sizing:border-box; }
-body {
-	color: #0000000;
-	font-family: 'Arial', sans-serif
-	font-size: 28px;
-	font-weight: 400;
-	padding: 0 3em 0 3em;
-	margin: 2em;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:500i');
-h1 {
-	font-family: 'Roboto' , sans-serif;
-	font-size: 1.5em;
-	font-weight: bold;
-	text-transform: uppercase;
-	text-decoration: underline;
-	text-align: center;
-}
-
-h2 {
-	text-align: center;
-	padding-bottom: 1em;
-}
-	
-h3 {
-	font-size: 1.25em;
-	font-weight: bold;	
-	border-bottom: 4px solid black;
-	display: inline-block;
-
-}
-ul {
-	padding-left:1.25em;
-	font-size: 18px;
-}
-
-#intro {
-	background: url(../images/jelsa.jpg);
-	background-repeat:no-repeat;
-	background-size:cover;
-	height: 90vh;
-	padding: 4em;
-}
-#intro {
-	text-align: center;
-	font-size: 45px;
-	color: white;
-	padding: 0 2em 0 2em;
-	margin: .25em;
-}
-@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
-#about {
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 20px;
-	font-weight: normal;
-	text-align: center;
-	padding: 1em;
-	border-color: #333;
-
-}
-
-#properties_1 {
-	text-align: right;
-	background: url(../images/jelsa.jpg);
-	background-repeat:no-repeat;
-	background-size: 18.5em;
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 1em;
-	font-weight: normal;
-}
-
-#properties_2 {
-	text-align: left;
-	background: url(../images/jelsa.jpg);
-	background-repeat:no-repeat;
-	background-size: 18.5em;
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 1em;
-	font-weight: normal;
-}
-
-#properties_3 {
-	text-align: right;
-	background: url(../images/PJ_1.jpg);
-	background-repeat: no-repeat;
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 1em;
-	font-weight: normal;	
-}
-
-#properties_4 {
-	background: url(../images/PJ_1.jpg);
-	background-repeat:no-repeat;
-	text-align: left;
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 1em;
-	font-weight: normal;
-	padding-bottom: 1.5em;
-	padding-right: 4em;
+#header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px
 }
 
 #nav {
-	text-align: center;
-	font-family: 'Arial', sans-serif;
-	font-size: 1em;
-	font-weight: 'normal';
-	padding: 0 3em 0 3em;
-	background-color: #333;
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#intro {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#intro {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#properties_1 {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#properties_2 {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#properties_3 {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;	
+}
+
+#properties_4 {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 #two {
-	text-align: center;
-	text-decoration-color: white;
-	font-family: 'Arial', sans-serif;
-	font-size: 1em;
-	font-weight: 'normal';
-	background-color: #ff0000;
-	padding: 1.5em 3em 0em 3em;
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 }
