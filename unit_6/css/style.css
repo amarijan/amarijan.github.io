@@ -1,25 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500i');
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-	color: #0000000;
-	font-family: 'Arial', sans-serif
+	color: #000000;
+	font-family: 'Arial', sans-serif;
 	font-size: 28px;
 	font-weight: 400;
 }
 
-#two_column {
+
+h1 {
+	font-family: 'Roboto' , sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+h3 {
+	font-size: 1.25em;
+	font-weight: bold;	
+	border-bottom: 4px solid black;
+	display: inline-block;
+
+}
+ul {
+	padding-left:1.25em;
+	font-size: 18px;
+}
+
+#intro {
+	background: url(../images/jelsa.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 90vh;
+	padding: 4em;
+}
+#intro {
+	text-align: center;
+	font-size: 45px;
+	color: white;
+	padding: 0 2em 0 2em;
+}
+
+#about {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	padding: 1em;
+	border-color: #333;
 	background-color: #FFB7CF;
-	border-color: 1px black solid;
-	padding: 20px;
+	border: 1px black solid;
 }
 
 #left {
-	background-color: #E582A2;
+	background-color: violet;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 20px
+	float: left;
+	width: 30%;
 }
 
 #right {
-	background-color: #E55B88;
+	background-color: pink;
 	border: 1px black solid;
 	padding: 20px;
+	float: right;
+	width: 62%;
 }
 
+#properties_1 {
+	font-family: 'PT Sans Narrow', sans-serif;
+
+}
+nav {
+	text-align: center;
+	font-family: 'Arial', sans-serif;
+	font-size: 1em;
+	font-weight: 'normal';
+	padding: 0 3em 0 3em;
+	background-color: #333;
+}
+#two {
+	background: black;
+	color: white;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
