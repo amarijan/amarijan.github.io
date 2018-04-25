@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:500i');
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	color: #000000;
+	color: #333;
 	font-family: 'Arial', sans-serif;
 	font-size: 28px;
 	font-weight: 400;
@@ -56,16 +56,22 @@ ul {
 	text-align: center;
 	padding: 1em;
 	border-color: #333;
+}
+
+#two_column {
 	background-color: #FFB7CF;
 	border: 1px black solid;
+	padding: 20px;
+
+
 }
 
 #left {
 	background-color: violet;
 	border: 1px black solid;
-	padding: 20px
+	padding: 20, 20, 20, 50px;
+	width: 35%;
 	float: left;
-	width: 30%;
 }
 
 #right {
@@ -73,13 +79,16 @@ ul {
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
-	width: 62%;
+	width: 65%;
 }
 
 #properties_1 {
 	font-family: 'PT Sans Narrow', sans-serif;
+	background-color: grey;
+	border: 1px black solid;
 
 }
+
 nav {
 	text-align: center;
 	font-family: 'Arial', sans-serif;
@@ -88,9 +97,24 @@ nav {
 	padding: 0 3em 0 3em;
 	background-color: #333;
 }
+
+a {
+	background-color: green;
+	color: white;
+	text-decoration: none;
+	display: inline;
+	padding: 5,0,5,0px;
+	width: 75px;
+}
+
+a:hover {
+	background-color: #333;
+}
+
 #two {
 	background: black;
 	color: white;
+
 }
 
 .clearfix:after {
@@ -100,4 +124,7 @@ nav {
 	content: " ";
 	clear: both;
 	height: 0;
+	padding-bottom: 20px
 }
+
+
