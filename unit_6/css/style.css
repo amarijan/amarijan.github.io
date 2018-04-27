@@ -56,29 +56,9 @@ ul {
 	text-align: center;
 	padding: 1em;
 	border-color: #333;
-}
-
-#two_column {
-	background-color: #FFB7CF;
-	border: 1px black solid;
-	padding: 20px;
-
-
-}
-
-#left {
 	background-color: violet;
 	border: 1px black solid;
-	padding: 20, 20, 20, 50px;
-	width: 35%;
-	float: left;
-}
-
-#right {
-	background-color: pink;
-	border: 1px black solid;
 	padding: 20px;
-	float: right;
 	width: 65%;
 }
 
@@ -86,7 +66,12 @@ ul {
 	font-family: 'PT Sans Narrow', sans-serif;
 	background-color: grey;
 	border: 1px black solid;
+}
 
+div {
+	padding: 2em;
+	margin: 20px;
+	float: none;
 }
 
 nav {
@@ -107,14 +92,13 @@ a {
 	width: 75px;
 }
 
-a:hover {
-	background-color: #333;
+#cta {
+	background-color: yellow;
+	color: white;
 }
 
-#two {
-	background: black;
-	color: white;
-
+a:hover {
+	background-color: #333;
 }
 
 .clearfix:after {
