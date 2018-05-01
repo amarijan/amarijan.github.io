@@ -16,6 +16,7 @@ h1 {
 	text-transform: uppercase;
 	text-decoration: underline;
 	text-align: center;
+	padding-bottom: 1em;
 }
 
 h2 {
@@ -33,10 +34,11 @@ h3 {
 ul {
 	padding-left:1.25em;
 	font-size: 18px;
+	text-align: center;
 }
 
 #intro {
-	background: url(../images/jelsa.jpg);
+	background: url(../images/Bay.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	height: 90vh;
@@ -45,23 +47,25 @@ ul {
 #intro {
 	text-align: center;
 	font-size: 45px;
-	color: white;
+	color: #333;
 	padding: 0 2em 0 2em;
 }
 
 #about {
 	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: normal;
 	text-align: center;
 	padding: 1em;
-	border-color: #333;
 }
 
 #properties_1 {
 	font-family: 'PT Sans Narrow', sans-serif;
 	background-color: grey;
 	border: 1px black solid;
+	padding: 5 5 5 5em;
+	margin: 0 5 0 5%;
+	text-align: center;
 }
 
 nav {
@@ -69,7 +73,7 @@ nav {
 	font-family: 'Arial', sans-serif;
 	font-size: 1em;
 	font-weight: 'normal';
-	padding: 0 3em 0 3em;
+	padding: 0 5em 0 5em;
 	background-color: #333;
 }
 
@@ -78,7 +82,7 @@ a {
 	color: white;
 	text-decoration: none;
 	display: inline;
-	padding: 5,0,5,0px;
+	padding: 10 0 10 0px;
 	width: 75px;
 }
 
@@ -88,27 +92,26 @@ a:hover {
 
 img {
 	width: 25%;
-	margin: 0 0 0 auto;
+	margin: auto;
 	display: inline-block;
-
-}
-
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-	padding-bottom: 20px
 }
 
 #social-icon {
 	display: inline block;
 	width: 4em;
 	float: right;
-	margin: 0 20px 0 30px;
-	padding: 0 3 0 3em;
+	margin: auto;
+	padding: 0 20 0 20em;
 }
+
+#theme {
+	text-align: center;
+	color: red;
+	font-size: 40px;
+	font: bold;
+	padding: 10%;
+	text-transform: uppercase;
+}
+
 
 
