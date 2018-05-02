@@ -29,12 +29,11 @@ h3 {
 	font-weight: bold;	
 	border-bottom: 4px solid black;
 	display: inline-block;
-
 }
+
 ul {
 	padding-left:1.25em;
 	font-size: 18px;
-	text-align: center;
 }
 
 #intro {
@@ -44,6 +43,7 @@ ul {
 	height: 90vh;
 	padding: 4em;
 }
+
 #intro {
 	text-align: center;
 	font-size: 45px;
@@ -70,6 +70,7 @@ ul {
 
 nav {
 	text-align: center;
+	word-spacing: .5em;
 	font-family: 'Arial', sans-serif;
 	font-size: 1em;
 	font-weight: 'normal';
@@ -94,14 +95,13 @@ img {
 	width: 25%;
 	margin: auto;
 	display: inline-block;
+	float: left;
 }
 
 #social-icon {
 	display: inline block;
 	width: 4em;
 	float: right;
-	margin: auto;
-	padding: 0 20 0 20em;
 }
 
 #theme {
@@ -111,6 +111,10 @@ img {
 	font: bold;
 	padding: 10%;
 	text-transform: uppercase;
+}
+#cta {
+	text-align: right;
+	float: right;
 }
 
 
