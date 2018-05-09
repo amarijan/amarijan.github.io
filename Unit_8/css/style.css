@@ -111,6 +111,7 @@ a:hover {
 #social-icon {
 	display: inline-block;
 	float: center;
+	width: 1em;
 }
 
 #theme {
@@ -137,5 +138,26 @@ a:hover {
 
 p + p {
 	margin-top: 1em;
+}
+
+@media only screen and (max-width: 800px) {
+	#intro, {
+		font-size: 1em;
+		text-align: center;
+		margin: 1em;
+	}
+
+	h3, p {
+		font-size: 75%;
+		text-align: center;
+		margin: 1em;
+	}
+
+	#about {
+		width: 75%;
+		text-align: center;
+		margin: 1em;
+		float: none;
+	}
 }
 
