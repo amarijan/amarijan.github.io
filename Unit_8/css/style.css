@@ -64,7 +64,7 @@ ul {
 }
 
 .properties {
-	width: 1200px;
+	width: 100%;
 	margin: auto;
 	padding: 2em 0;
 }
@@ -110,7 +110,7 @@ a:hover {
 
 #social-icon {
 	display: inline-block;
-	font-size: 1em;
+	float: center;
 }
 
 #theme {
