@@ -146,9 +146,15 @@ p + p {
 		margin: 1em;
 	}
 
-	h3, p, nav {
+	h1, p {
 		font-size: 75%;
 		text-align: center;
+		margin: 1em;	
+	}
+
+	nav {
+		display: block;
+		font-size: 1em;
 		margin: 1em;
 	}
 
@@ -173,9 +179,23 @@ p + p {
 
 @media only screen and (max-width: 480px) {
 	h3, p {
-		text-align: right;
-		font-size: 100%;
+		font-size: 75%;
+	}
+
+	nav {
+		display: block;
+		font-size: 1em;
 		margin: 1em;
+	}
+
+	nav a {
+		display: block;
+		float: none;
+	}
+
+	.class {
+		float: none;
+		text-align: center;
 	}
 
 	.properties img {
@@ -185,6 +205,11 @@ p + p {
 	}
 	.properties:nth-of-type {
 		float: none;
+	}
+
+	h1 {
+		color: red;
+		font-size: 1em;
 	}
 }
 
