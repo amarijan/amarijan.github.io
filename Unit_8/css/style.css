@@ -34,6 +34,7 @@ h3 {
 ul {
 	padding-left: 1.25em;
 	font-size: 18px;
+	text-align: left;
 }
 
 #intro {
@@ -59,8 +60,7 @@ ul {
 	font-family: 'PT Sans Narrow', sans-serif;
 	background-color: grey;
 	border: 1px black solid;
-	padding: 5 5 5 5em;
-	margin: 0 5 0 5%;
+	padding: 5em;
 }
 
 .properties {
@@ -108,10 +108,9 @@ a:hover {
 	background-color: red;
 }
 
-#social-icon {
+.social-icon >div {
 	display: inline-block;
-	float: center;
-	width: 1em;
+	float: right;
 }
 
 #theme {
@@ -141,13 +140,13 @@ p + p {
 }
 
 @media only screen and (max-width: 800px) {
-	#intro, {
+	#intro {
 		font-size: 1em;
 		text-align: center;
 		margin: 1em;
 	}
 
-	h3, p {
+	h3, p, nav {
 		font-size: 75%;
 		text-align: center;
 		margin: 1em;
@@ -157,6 +156,34 @@ p + p {
 		width: 75%;
 		text-align: center;
 		margin: 1em;
+		float: none;
+	}
+
+	.properties img {
+		width: 100%;
+		margin: 1em;
+		float: none;
+	}
+
+	.properties >div {
+		width: 50%;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	h3, p {
+		text-align: right;
+		font-size: 100%;
+		margin: 1em;
+	}
+
+	.properties img {
+		width: 150%;
+		float: none;
+		margin: 1em;
+	}
+	.properties:nth-of-type {
 		float: none;
 	}
 }
